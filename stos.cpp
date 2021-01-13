@@ -61,7 +61,7 @@ public:
         return A[top + 1];
     }
 
-    void Display(){  // wyswietla elementy stosu od gory do dolu lub nie jesli stos jest pusty.
+    void Display(){  // wyswietla elementy stosu od dolu do gory lub nie jesli stos jest pusty.
         if(isEmpty()){
             printf("Stos jest pusty.\n");
             return;
